@@ -1,1 +1,1 @@
-# lambda
+csf-lambda-dynamodb
