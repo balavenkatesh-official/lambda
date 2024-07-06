@@ -15,7 +15,12 @@
 
 7. create rds database and update host,username,password,db-name on the code
 
-8. upload the csv file and check the trigger is working
+   create database employeedb;
+   use employeedb;
+   create table employee(empid int,empname varchar(40),empaddress varchar(40));
+   select * from employee;
+   
+9. upload the csv file and check the trigger is working
 
-9. finally you get the records on rds database
+10. finally you get the records on rds database
    
